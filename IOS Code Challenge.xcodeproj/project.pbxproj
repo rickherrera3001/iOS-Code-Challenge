@@ -71,6 +71,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0211B7F2BCA011500175B1D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D0211B802BCA017F00175B1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0211B812BCA018800175B1D /* Title View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Title View";
+			sourceTree = "<group>";
+		};
+		D0211B822BCA019900175B1D /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
 		D047AC6C2BC9F3D800F3D3AB = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,10 @@
 		D047AC772BC9F3D800F3D3AB /* IOS Code Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				D0211B822BCA019900175B1D /* Detail View */,
+				D0211B812BCA018800175B1D /* Title View */,
+				D0211B802BCA017F00175B1D /* Model */,
+				D0211B7F2BCA011500175B1D /* Network */,
 				D047AC782BC9F3D800F3D3AB /* IOS_Code_ChallengeApp.swift */,
 				D047AC7A2BC9F3D800F3D3AB /* ContentView.swift */,
 				D047AC7C2BC9F3D900F3D3AB /* Assets.xcassets */,
