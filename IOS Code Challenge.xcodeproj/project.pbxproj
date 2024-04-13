@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0211B842BCA083300175B1D /* Title Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0211B832BCA083300175B1D /* Title Model.swift */; };
+		D0211B862BCA09D900175B1D /* Title Api Client .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0211B852BCA09D900175B1D /* Title Api Client .swift */; };
+		D0211B882BCA11A900175B1D /* Title View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0211B872BCA11A900175B1D /* Title View.swift */; };
 		D047AC792BC9F3D800F3D3AB /* IOS_Code_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047AC782BC9F3D800F3D3AB /* IOS_Code_ChallengeApp.swift */; };
 		D047AC7B2BC9F3D800F3D3AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D047AC7A2BC9F3D800F3D3AB /* ContentView.swift */; };
 		D047AC7D2BC9F3D900F3D3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D047AC7C2BC9F3D900F3D3AB /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0211B832BCA083300175B1D /* Title Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Title Model.swift"; sourceTree = "<group>"; };
+		D0211B852BCA09D900175B1D /* Title Api Client .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Title Api Client .swift"; path = "../../Title Api Client .swift"; sourceTree = "<group>"; };
+		D0211B872BCA11A900175B1D /* Title View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Title View.swift"; sourceTree = "<group>"; };
 		D047AC752BC9F3D800F3D3AB /* IOS Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D047AC782BC9F3D800F3D3AB /* IOS_Code_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Code_ChallengeApp.swift; sourceTree = "<group>"; };
 		D047AC7A2BC9F3D800F3D3AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,7 @@
 		D0211B7F2BCA011500175B1D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D0211B852BCA09D900175B1D /* Title Api Client .swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -81,6 +88,7 @@
 		D0211B802BCA017F00175B1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0211B832BCA083300175B1D /* Title Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +96,7 @@
 		D0211B812BCA018800175B1D /* Title View */ = {
 			isa = PBXGroup;
 			children = (
+				D0211B872BCA11A900175B1D /* Title View.swift */,
 			);
 			path = "Title View";
 			sourceTree = "<group>";
@@ -290,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D047AC7B2BC9F3D800F3D3AB /* ContentView.swift in Sources */,
+				D0211B862BCA09D900175B1D /* Title Api Client .swift in Sources */,
 				D047AC792BC9F3D800F3D3AB /* IOS_Code_ChallengeApp.swift in Sources */,
+				D0211B842BCA083300175B1D /* Title Model.swift in Sources */,
+				D0211B882BCA11A900175B1D /* Title View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
